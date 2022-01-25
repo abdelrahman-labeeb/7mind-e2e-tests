@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://app.7mind.de",
+  "pluginsFile": "cypress/plugins/index.ts",
+  "supportFile": "cypress/support/commands.ts",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "defaultCommandTimeout": 20000,
+  "requestTimeout": 10000,
+  "videoUploadOnPasses": false,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
